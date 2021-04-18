@@ -4,7 +4,10 @@
 
 </script>
 
-<h1>Contact</h1>
-
+<main>
 <Board/>
+
+	
+</main>
+
 
