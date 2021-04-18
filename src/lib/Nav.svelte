@@ -1,6 +1,6 @@
 <nav>
     <div class="logo">
-        Logo
+        <img src="static/logoADL.svg" alt="logo"/>
     </div>
     <div class="options">    
         <a href="/">Home</a>
@@ -11,6 +11,9 @@
 </nav>
 
 <style lang="scss">
+    nav {
+        margin-bottom: 7rem;
+    }
     .logo{
         float: left;
     }
