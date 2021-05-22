@@ -10,8 +10,8 @@
 
 <style lang="scss">
 .board{
-
-    width: 60%;
+    position: absolute;
+    width: 50%;
 
 }
 
