@@ -42,9 +42,9 @@
 
 <style>
 	svg {
-		width:  40%;
+		width:  31%;
 		right: 0em;
-		top: 13em;
+		top: 15em;
     	position: fixed;
 	}
 
@@ -53,10 +53,14 @@
 		opacity: 1;
 	}
 
-	label {
-		position: relative;
-		top: 1em;
-		left: 1em;
+	@media (max-width: 40px) {
+		svg {
+		width:  50%;
+		right: 50%;
+		top: 0;
+    	position: fixed;
 	}
+}
+
 
 </style>

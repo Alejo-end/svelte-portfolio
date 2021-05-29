@@ -11,23 +11,17 @@
 <style lang="scss">
 .text{
   position: relative;
-  background-color: #f7f7f7;
-  border: 5px solid #333333;
-  padding: 40px;
-  transition: 1s;
-  transition-delay: 0.1s;
+  padding: 0.8em;
 
-  &:hover {
-    box-shadow: 10px 10px #333333;
-  }
 
   & > h2 {
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: 300;
     color: #333333;
     line-height: 1em;
     text-transform: uppercase;
     transition: 0.5s;
+    margin: 0.25em auto;
     &:hover{
         transform: skew(-15deg); 
     }
@@ -68,6 +62,22 @@
         letter-spacing: 5px;
         animation: colorRotate 2s linear 0s infinite;
         box-shadow: 5px 5px #333333;
+    }
+
+}
+@media (max-width: 480px) {
+    .text{ 
+        margin-top: 1.25em;
+        & > h2{
+        font-size: 3em;
+        }
+        & > h3{
+        font-size: 1.8em;
+        }
+        & > p{
+        font-size: 1.25em;
+        }
+
     }
 }
 </style>
