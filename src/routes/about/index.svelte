@@ -7,7 +7,7 @@
 
 <main>
 
-    <Board>
+    <Board width="48em">
         <h1>
             About Me
         </h1>

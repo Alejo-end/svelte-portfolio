@@ -1,9 +1,9 @@
 <script lang="ts">
-
+export let width;
 
 </script>
 
-<div class="board">
+<div class="board" style="width: {width}">
     <!-- <img class="logo" src={logoADL} alt="Logo" /> -->
     <slot>
 
@@ -12,7 +12,6 @@
 
 <style lang="scss">
 .board{
-    width: 48em;
     position: relative;
     background-color: #f7f7f7;
     border: 5px solid #333333;

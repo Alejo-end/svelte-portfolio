@@ -6,7 +6,7 @@ import Welcome from '$lib/Welcome.svelte';
 </script>
 
 <main>
-	<Board>
+	<Board width="48em">
 		<D3/>
 		<Welcome/>
 	</Board>
@@ -17,6 +17,7 @@ import Welcome from '$lib/Welcome.svelte';
 	main {
 		margin: 0 auto;
 	}
+
 
 	@media (min-width: 480px) {
 

@@ -5,7 +5,7 @@
     <p>
         I am a Web Designer, Software Engineer and Open Data Enthusiast.
     </p>
-    <div href="#">View Projects</div>
+    <div><a href="/projects" class="link-a">View Projects</a></div>
 </div>
 
 <style lang="scss">
@@ -63,7 +63,10 @@
         animation: colorRotate 2s linear 0s infinite;
         box-shadow: 5px 5px #333333;
     }
-
+}
+.link-a{
+        text-decoration: none;
+        color: white;
 }
 @media (max-width: 480px) {
     .text{ 
